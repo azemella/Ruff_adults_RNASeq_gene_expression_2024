@@ -1,0 +1,65 @@
+# Positive selection analysis
+# Data preparation according to this tutorial
+https://github.com/abacus-gene/paml-tutorial/tree/main/positive-selection/00_data
+
+# 1. translatorX
+perl 00_data/translatorX_perl/translatorX.pl -i HSD17B2_positive_selection_analysis/1_cleaned_CDS_seqs/HSD17B2_aves_multifasta_cds_shorebirds_only.fasta -p F -o HSD17B2_positive_selection_analysis/2_HSD17B2_alignments_mafft/HSD17B2_translatorx
+
+# 1.2 Rename output files
+cp HSD17B2_positive_selection_analysis/2_HSD17B2_alignments_mafft/HSD17B2_translatorx.nt_ali.fasta HSD17B2_positive_selection_analysis/2_HSD17B2_alignments_mafft/HSD17B2_nuc_mafft_aln.fasta
+
+cp HSD17B2_positive_selection_analysis/2_HSD17B2_alignments_mafft/HSD17B2_translatorx.aaseqs.fasta HSD17B2_positive_selection_analysis/2_HSD17B2_alignments_mafft/HSD17B2_prot_mafft_aln.fasta
+
+# 2. pal2nal python script
+perl 00_data/scripts/pal2nal_v14/pal2nal.pl HSD17B2_positive_selection_analysis/2_HSD17B2_alignments_mafft/HSD17B2_prot_mafft_aln.fasta HSD17B2_positive_selection_analysis/2_HSD17B2_alignments_mafft/HSD17B2_nuc_mafft_aln.fasta -output fasta -nogap > HSD17B2_positive_selection_analysis/3_HSD17B2_pal2nal_checks/HSD17B2_pal2nal_mafft_out.fasta
+
+# 3. one_line_fasta python script
+perl 00_data/scripts/one_line_fasta.pl HSD17B2_positive_selection_analysis/3_HSD17B2_pal2nal_checks/HSD17B2_pal2nal_mafft_out.fasta
+
+# 4. FASTAtoPHYL.pl python script
+cd HSD17B2_positive_selection_analysis/3_HSD17B2_pal2nal_checks
+
+num=$( grep '>' HSD17B2_pal2nal_mafft_out_one_line.fa | wc -l )
+len=$( sed -n '2,2p' HSD17B2_pal2nal_mafft_out_one_line.fa | sed 's/\r//' | sed 's/\n//' | wc --m )
+perl ~/paml-4.10.7/paml-tutorial-main/positive-selection/00_data/scripts/FASTAtoPHYL.pl HSD17B2_pal2nal_mafft_out_one_line.fa $num $len 
+
+mv HSD17B2_pal2nal_mafft_out_one_line.fa.phy ~/paml-4.10.7/paml-tutorial-main/positive-selection/HSD17B2_positive_selection_analysis/4_HSD17B2_fasta_to_phylip/HSD17B2_mafft.phy
+mv log_lenseq.txt ~/paml-4.10.7/paml-tutorial-main/positive-selection/HSD17B2_positive_selection_analysis/4_HSD17B2_fasta_to_phylip/log_lenseq.txt
+
+# 5. Generate tree on IQ-TREE
+iqtree -s $INPUTALIGNMENTFILE -bb 1000 -m TEST -pre $OUTPUTPREFIX
+
+# 6. Manually remove bootstrap values in the tree and add "#1" after Satellites and/or Faeders to tag this branch as foreground. We will test the ### hypothesis that this gene in these two morphs is under positive selection.
+
+# Final tree output used in CODEML
+(Charadrius_vociferus,((Rissa_tridactyla,Chroicocephalus_ridibundus),(Alca_torda,Uria_aalge)),((Calidris_pugnax_Independent,(Calidris_pugnax_Satellite  #1,Calidris_pugnax_Faeder #1) #1),Limosa_lapponica));
+
+# 7. CODEML
+# 7.1 Prepare control file and save it as in the same folder "7_CODEML" along with the tree and alignment files
+
+# 7.2 CODEML
+cd HSD17B2_positive_selection_analysis/7_CODEML_branch
+codeml codeml-branch.ctl
+
+# 7.3 CODEML NULL
+# Create a new control file "codeml codeml-branch_null.ctl" and change fix_omega = 1 and omega = 1
+cd HSD17B2_positive_selection_analysis/8_CODEML_branch_null
+codeml codeml-branch_null.ctl
+
+# 8.1 Extract the "lnL" values
+cd HSD17B2_positive_selection_analysis/9_LRT
+
+grep 'lnL' ~/paml-4.10.7/paml-tutorial-main/positive-selection/HSD17B2_positive_selection_analysis/Branch_model_inversion_morphs_clade/7_CODEML_branch/out_HSD17B2_inversion_morphs_clade_branch.txt | sed 's/..*\:\ *//' | sed 's/\ ..*//' > lnL_inversion_morphs_clade_branch_mods.txt
+
+grep 'lnL' ~/paml-4.10.7/paml-tutorial-main/positive-selection/HSD17B2_positive_selection_analysis/Branch_model_inversion_morphs_clade/8_CODEML_branch_null/out_HSD17B2_inversion_morphs_clade_branch_null.txt | sed 's/..*\:\ *//' | sed 's/\ ..*//' >> lnL_inversion_morphs_clade_branch_mods.txt
+
+# 8.2 Run the adapted R script "LRT_script.R" to compute the LRT statistic
+
+# 8.3 Extract the omega estimates
+w_inv_clade_back=$( grep 'w (dN/dS) for branches'  ~/paml-4.10.7/paml-tutorial-main/positive-selection/HSD17B2_positive_selection_analysis/Branch_model_inversion_morphs_clade/7_CODEML_branch/out_HSD17B2_inversion_morphs_clade_branch.txt | sed 's/..*: *//' | sed 's/ ..*//' )
+
+w_inv_clade_for=$( grep 'w (dN/dS) for branches'  ~/paml-4.10.7/paml-tutorial-main/positive-selection/HSD17B2_positive_selection_analysis/Branch_model_inversion_morphs_clade/7_CODEML_branch/out_HSD17B2_inversion_morphs_clade_branch.txt | sed 's/..* //')
+
+printf "w_back_faeder\tw_fore_faeder\tw_back_satellite\tw_fore_satellite\tw_back_invmorphs\tw_fore_invmorphs\tw_back_invclade\tw_fore_invclade\n" > w_est_branches.tsv
+printf $w_fae_back"\t"$w_fae_for"\t"$w_sat_back"\t"$w_sat_for"\t"$w_inv_back"\t"$w_inv_for"\t"$w_inv_clade_back"\t"$w_inv_clade_for"\n" >> w_est_branches.tsv 
+

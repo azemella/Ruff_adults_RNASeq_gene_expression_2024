@@ -1,0 +1,6 @@
+# Run this script to combine all STAR gene count files into a single data matrix
+
+for FILE in *ReadsPerGene.out.tab; do NAME=$(basename $FILE _ReadsPerGene.out.tab); echo $NAME | cat - <(sed '1,4d' $FILE | cut -f4) > $NAME.tmp.counts; done
+echo "Gene" | cat - <(sed '1,4d' s1015_F_PIT_01_ReadsPerGene.out.tab | cut -f1) > 0GeneNames.tmp.counts
+paste *.tmp.counts > first_genecounts_forDeSeq2.txt
+rm *.tmp.counts

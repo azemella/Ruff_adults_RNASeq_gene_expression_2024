@@ -1,0 +1,28 @@
+ID	morph	age	experimental_condition	date_sacrificed	aggressionrate	courtshiprate
+1664	Fae	4	Behaving according to morph in lek	6/15/2017	0	0
+1015	Fae	3	Behaving according to morph in lek	6/17/2017	0.171919771	0
+1650	Fae	6	Behaving according to morph in lek	6/5/2018	0	1.597633136
+1319	Fae	4	Behaving according to morph in lek	6/7/2018	0	0.231213873
+1647	Fae	6	Behaving according to morph in lek	6/10/2018	0	0
+1639	Fae	6	Behaving according to morph in lek	6/14/2018	0	0.280373832
+954	Fae	6	Behaving according to morph in lek	6/16/2018	0	0.095846645
+1337	Fae	3	Behaving according to morph in lek	6/10/2019	0	0.762711864
+672	Fae	13	Behaving according to morph in lek	6/13/2019	0	0
+372	Ind	7	Behaving according to morph in lek	6/15/2017	6.18556701	1.855670103
+1340	Ind	1	Behaving according to morph in lek	6/16/2017	6.107784431	0.359281437
+1306	Ind	4	Behaving according to morph in lek	6/6/2018	6.357615894	2.781456954
+319	Ind	10	Behaving according to morph in lek	6/7/2018	2.134387352	0.4743083
+1323	Ind	4	Behaving according to morph in lek	6/9/2018	3.098591549	1.971830986
+1330	Ind	3	Behaving according to morph in lek	6/13/2018	7.868852459	1.37704918
+370	Ind	8	Behaving according to morph in lek	6/16/2018	5.885167464	4.449760766
+1674	Ind	6	Behaving according to morph in lek	6/9/2019	5.126582278	3.037974684
+1328	Ind	5	Behaving according to morph in lek	6/10/2019	6.421052632	3.473684211
+1645	Sat	5	Behaving according to morph in lek	6/17/2017	0	1.185185185
+1640	Sat	6	Behaving according to morph in lek	6/6/2018	0	5.940594059
+1324	Sat	4	Behaving according to morph in lek	6/8/2018	0	4.331550802
+1670	Sat	5	Behaving according to morph in lek	6/10/2018	0	8.967032967
+329	Sat	10	Behaving according to morph in lek	6/15/2018	0	5.169230769
+1680	Sat	5	Behaving according to morph in lek	6/15/2018	0	5.408163265
+1633	Sat	7	Behaving according to morph in lek	6/8/2019	0	4.289693593
+1693	Sat	6	Behaving according to morph in lek	6/13/2019	0.338504937	2.200282087
+						

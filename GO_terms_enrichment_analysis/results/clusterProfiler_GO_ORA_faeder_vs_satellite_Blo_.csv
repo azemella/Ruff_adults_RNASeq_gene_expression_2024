@@ -1,0 +1,4 @@
+"ONTOLOGY","ID","Description","GeneRatio","BgRatio","pvalue","FDR","geneID","Count","GeneList"
+"BP","GO:0006688","glycosphingolipid biosynthetic process","2/17","18/10492",0.00037235763797183,0.07921474525879,"LOC106898356/LOC106898350",2,"Up-regulated"
+"BP","GO:0097503","sialylation","2/17","19/10492",0.000415767999977074,0.07921474525879,"LOC106898356/LOC106898350",2,"Up-regulated"
+"MF","GO:0008373","sialyltransferase activity","2/13","19/8999",0.000324908545164968,0.0208625486895401,"LOC106898356/LOC106898350",2,"Up-regulated"

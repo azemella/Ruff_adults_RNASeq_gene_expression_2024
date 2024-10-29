@@ -1,0 +1,72 @@
+# Authors: Jasmine L. Loveland (jasmine.loveland@univie.ac.at), Alex Zemella (alex.zemella@bi.mpg.de)
+# Affiliations: University of Vienna (JL), Max Planck Institute for Biological Intelligence (AZ)
+
+from snakemake.utils import min_version
+min_version("7.0.0")
+
+# Path to config file
+configfile: "config/config.yaml",
+
+# Rules and their target-rules were run one by one. 
+# Mask/Unmask each rule and its target-rule accordingly, following this order.
+# The first one - data cleaning with TrimGalore - has been left unmasked here as an example.
+
+# Load rules
+include: "workflow/rules/trimgalore.smk",
+#include: "workflow/rules/star_mapping.smk",
+#include: "workflow/rules/gatk_dictionary.smk",
+#include: "workflow/rules/gatk_variant_calling.smk",
+#include: "workflow/rules/gatk_snps_faeder.smk",
+#include: "workflow/rules/gatk_snps_satellite.smk",
+#include: "workflow/rules/gatk_indels_faeder.smk",
+#include: "workflow/rules/gatk_indels_satellite.smk",
+#include: "workflow/rules/bcftools.smk",
+#include: "workflow/rules/star_consensus_mapping.smk",
+#include: "workflow/rules/gatk_asereadcounter.smk",
+
+# Target-rules
+rule all:
+    input:
+        # For rule "trimgalore.smk"
+        expand("trimgalore/{sample}_R1_val_1.fq.gz", sample = config["samples"]),
+        expand("trimgalore/{sample}_R2_val_2.fq.gz", sample = config["samples"]),
+        
+        # For rule "star_mapping.smk"
+        #expand("star_ncbi/mapped/{ind_sample}_Aligned.out.bam", ind_sample = config["independent_samples"]),
+        #expand("star_ncbi/mapped/{ind_sample}_ReadsPerGene.out.tab", ind_sample = config["independent_samples"]),
+        #expand("star_ncbi/mapped/{sat_sample}_Aligned.out.bam", sat_sample = config["satellite_samples"]),
+        #expand("star_ncbi/mapped/{sat_sample}_ReadsPerGene.out.tab", sat_sample = config["satellite_samples"]),
+        #expand("star_ncbi/mapped/{fae_sample}_Aligned.out.bam", fae_sample = config["faeder_samples"]),
+        #expand("star_ncbi/mapped/{fae_sample}_ReadsPerGene.out.tab", fae_sample = config["faeder_samples"]),
+
+        # For rule "gatk_dictionary.smk"
+        #"genome/ncbi_genome/GCF_001431845.1_ASM143184v1_genomic.dict"
+        
+        # For rule "gatk_variant_calling.smk"
+        #"gatk4/genotypegvcfs/genotypegvcfs.vcf",
+
+        # For rule "gatk_snps_faeder.smk"
+        #"gatk4/ruff_adults_variants/consensus_inversion_hetSNPs_faeder.vcf",
+
+        # For rule "gatk_snps_satellite.smk"
+        #"gatk4/ruff_adults_variants/consensus_inversion_hetSNPs_satellite.vcf",
+
+        # For rule "gatk_indels_faeder.smk"
+        #"gatk4/ruff_adults_variants/consensus_inversion_hetINDELs_faeder.vcf",
+
+        # For rule "gatk_indels_satellite.smk"
+        #"gatk4/ruff_adults_variants/consensus_inversion_hetINDELs_satellite.vcf",
+
+        # For rule "bcftools.smk"
+        #"bcftools/consensus_inversion_hetSNPs_and_hetINDELs_merged_faeder.vcf",
+        #"bcftools/consensus_inversion_hetSNPs_and_hetINDELs_merged_satellite.vcf",
+
+        # For rule "star_consensus_mapping.smk"
+        #expand("star_consensus/satellite/mapped/{sat_sample}_Aligned.out.bam", sat_sample = config["satellite_samples"]),
+        #expand("star_consensus/satellite/mapped/{sat_sample}_ReadsPerGene.out.tab", sat_sample = config["satellite_samples"]),
+        #expand("star_consensus/faeder/mapped/{fae_sample}_Aligned.out.bam", fae_sample = config["faeder_samples"]),
+        #expand("star_consensus/faeder/mapped/{fae_sample}_ReadsPerGene.out.tab", fae_sample = config["faeder_samples"]),
+
+        # For rule "gatk_asereadcounter.smk"
+        #expand("gatk4/asereadcounter/faeder/{fae_sample}_ASEReadCounter.table", fae_sample = config["faeder_samples"]),
+        #expand("gatk4/asereadcounter/satellite/{sat_sample}_ASEReadCounter.table", sat_sample = config["satellite_samples"]),

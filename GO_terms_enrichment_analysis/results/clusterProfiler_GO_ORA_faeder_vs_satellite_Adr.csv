@@ -1,0 +1,5 @@
+"ONTOLOGY","ID","Description","GeneRatio","BgRatio","pvalue","FDR","geneID","Count","GeneList"
+"MF","GO:0004181","metallocarboxypeptidase activity","2/13","20/9278",0.000339496001048361,0.0236354390107705,"AGBL1/CPA6",2,"Down-regulated"
+"MF","GO:0004180","carboxypeptidase activity","2/13","27/9278",0.000623712973895332,0.0236354390107705,"AGBL1/CPA6",2,"Down-regulated"
+"MF","GO:0008235","metalloexopeptidase activity","2/13","46/9278",0.0018117410500983,0.0457703002130097,"AGBL1/CPA6",2,"Down-regulated"
+"MF","GO:0008238","exopeptidase activity","2/13","72/9278",0.00438324693714942,0.0830509945986206,"AGBL1/CPA6",2,"Down-regulated"

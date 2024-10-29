@@ -1,0 +1,16 @@
+Package: BSgenome.Cpugnax.NCBI.ASM143184v1
+Title: Full genome sequences for Calidris pugnax (ASM143184v1)
+Description: Full genome sequences for Calidris pugnax as provided by NCBI (assembly ASM143184v1, assembly accession GCF_001431845.1)
+Version: 1.0.0
+organism: Calidris pugnax
+common_name: ruff
+genome: ASM143184v1
+provider: NCBI
+release_date: 2015/11/04
+source_url: https://www.ncbi.nlm.nih.gov/assembly/GCF_001431845.1
+organism_biocview: Calidris_pugnax
+BSgenomeObjname: Cpugnax
+circ_seqs: character(0)
+SrcDataFiles: GCF_001431845.1_ASM143184v1_genomic.fna.gz from https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/431/845/GCF_001431845.1_ASM143184v1
+seqs_srcdir: home/user/ruff_adults_gene_expression/BSgenome
+seqfile_name: CalidrisPugnax.dna.2bit

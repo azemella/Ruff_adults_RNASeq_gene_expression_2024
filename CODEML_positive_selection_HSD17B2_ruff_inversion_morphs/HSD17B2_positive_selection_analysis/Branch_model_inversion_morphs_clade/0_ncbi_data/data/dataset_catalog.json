@@ -1,0 +1,15 @@
+{
+  "genes": {
+    "files": [
+      {
+        "filePath": "cds.fna",
+        "fileType": "CDS_NUCLEOTIDE_FASTA"
+      },
+      {
+        "filePath": "data_report.jsonl",
+        "fileType": "DATA_REPORT"
+      }
+    ]
+  },
+  "apiVersion": "V2"
+}

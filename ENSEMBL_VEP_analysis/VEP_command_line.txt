@@ -1,0 +1,12 @@
+### VEP command line to annotate Faeder-specific hetINDELs within the inversion region
+vep --cache --offline --everything --fork 4 --input_file Variants/consensus_inversion_hetINDELs_faeder.vcf --output_file VEPannotation_inversion_hetINDELs_faeder.txt --species calidris_pugnax --stats_file VEPannotation_inversion_hetINDELs_faeder_stats_output.html
+
+### VEP command line to annotate Faeder-specific hetSNPs within the inversion region
+vep --cache --offline --everything --fork 4 --input_file consensus_inversion_hetSNPs_faeder.vcf --output_file VEPannotation_inversion_hetSNPs_faeder.txt --species calidris_pugnax --stats_file VEPannotation_inversion_hetSNPs_faeder_stats_output.html
+
+### VEP command line to annotate Satellite-specific hetINDELs within the inversion region
+vep --cache --offline --everything --fork 4 --input_file consensus_inversion_hetINDELs_satellite.vcf --output_file VEPannotation_inversion_hetINDELs_satellite.txt --species calidris_pugnax --stats_file VEPannotation_inversion_hetINDELs_satellite_stats_output.html
+
+### VEP command line to annotate Satellite-specific hetSNPs within the inversion region
+vep --cache --offline --everything --fork 4 --input_file consensus_inversion_hetSNPs_satellite.vcf --output_file VEPannotation_inversion_hetSNPs_satellite.txt --species calidris_pugnax --stats_file VEPannotation_inversion_hetSNPs_satellite_stats_output.html
+

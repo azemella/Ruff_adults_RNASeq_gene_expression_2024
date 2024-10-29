@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="svglite"
+   width="433pt"
+   height="284pt"
+   viewBox="0 0 433 284"
+   version="1.1"
+   id="svg119"
+   sodipodi:docname="GO_enrichment_gonads.svg"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview119"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="0.84461806"
+     inkscape:cx="433.92395"
+     inkscape:cy="137.93217"
+     inkscape:window-width="1850"
+     inkscape:window-height="1011"
+     inkscape:window-x="70"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g120" />
+  <defs
+     id="defs1">
+    <style
+       type="text/css"
+       id="style1"><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+  </defs>
+  <defs
+     id="defs2">
+    <clipPath
+       id="cpMC4wMHw4NjQuMDB8MC4wMHw1NzYuMDA=">
+      <rect
+         x="0"
+         y="0"
+         width="864"
+         height="576"
+         id="rect2" />
+    </clipPath>
+  </defs>
+  <defs
+     id="defs4">
+    <clipPath
+       id="cpMTM0LjUwfDc1My44OHw1LjQ4fDMwNy42OQ==">
+      <rect
+         x="134.5"
+         y="5.48"
+         width="619.39001"
+         height="302.20999"
+         id="rect4" />
+    </clipPath>
+  </defs>
+  <g
+     id="g120"
+     transform="scale(0.5)"
+     inkscape:label="Plot">
+    <g
+       clip-path="url(#cpMTM0LjUwfDc1My44OHw1LjQ4fDMwNy42OQ==)"
+       id="g58"
+       inkscape:label="Main plot">
+      <rect
+         x="134.5"
+         y="5.48"
+         width="619.39001"
+         height="302.20999"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect5" />
+      <polyline
+         points="134.50,251.03 753.88,251.03 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline5" />
+      <polyline
+         points="134.50,156.58 753.88,156.58 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline6" />
+      <polyline
+         points="134.50,62.14 753.88,62.14 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline7" />
+      <polyline
+         points="152.89,307.69 152.89,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline8" />
+      <polyline
+         points="183.56,307.69 183.56,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline9" />
+      <polyline
+         points="214.22,307.69 214.22,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline10" />
+      <polyline
+         points="244.88,307.69 244.88,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline11" />
+      <polyline
+         points="275.54,307.69 275.54,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline12" />
+      <polyline
+         points="306.21,307.69 306.21,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline13" />
+      <polyline
+         points="336.87,307.69 336.87,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline14" />
+      <polyline
+         points="367.53,307.69 367.53,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline15" />
+      <polyline
+         points="398.20,307.69 398.20,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline16" />
+      <polyline
+         points="428.86,307.69 428.86,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline17" />
+      <polyline
+         points="459.52,307.69 459.52,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline18" />
+      <polyline
+         points="490.18,307.69 490.18,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline19" />
+      <polyline
+         points="520.85,307.69 520.85,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline20" />
+      <polyline
+         points="551.51,307.69 551.51,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline21" />
+      <polyline
+         points="582.17,307.69 582.17,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline22" />
+      <polyline
+         points="612.83,307.69 612.83,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline23" />
+      <polyline
+         points="643.50,307.69 643.50,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline24" />
+      <polyline
+         points="674.16,307.69 674.16,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline25" />
+      <polyline
+         points="704.82,307.69 704.82,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline26" />
+      <polyline
+         points="735.48,307.69 735.48,5.48 "
+         style="stroke:#808080;stroke-width:1.07;stroke-linecap:butt;stroke-dasharray:1.42, 4.27"
+         id="polyline27" />
+      <circle
+         cx="643.5"
+         cy="62.139999"
+         r="14.23"
+         style="fill:#b3eebe;stroke-width:0.71"
+         id="circle27" />
+      <circle
+         cx="152.89"
+         cy="62.139999"
+         r="10.84"
+         style="fill:#b2edbe;stroke-width:0.71"
+         id="circle28" />
+      <circle
+         cx="214.22"
+         cy="62.139999"
+         r="9.3299999"
+         style="fill:#afecbe;stroke-width:0.71"
+         id="circle29" />
+      <circle
+         cx="275.54001"
+         cy="62.139999"
+         r="11.99"
+         style="fill:#abe9be;stroke-width:0.71"
+         id="circle30" />
+      <circle
+         cx="336.87"
+         cy="62.139999"
+         r="10.84"
+         style="fill:#aae8bf;stroke-width:0.71"
+         id="circle31" />
+      <circle
+         cx="306.20999"
+         cy="62.139999"
+         r="11.44"
+         style="fill:#aae8bf;stroke-width:0.71"
+         id="circle32" />
+      <circle
+         cx="367.53"
+         cy="62.139999"
+         r="9.3299999"
+         style="fill:#a2e4bf;stroke-width:0.71"
+         id="circle33" />
+      <circle
+         cx="459.51999"
+         cy="62.139999"
+         r="12.5"
+         style="fill:#97dec0;stroke-width:0.71"
+         id="circle34" />
+      <circle
+         cx="490.17999"
+         cy="62.139999"
+         r="12.97"
+         style="fill:#96ddc0;stroke-width:0.71"
+         id="circle35" />
+      <circle
+         cx="244.88"
+         cy="62.139999"
+         r="9.3299999"
+         style="fill:#84d4c0;stroke-width:0.71"
+         id="circle36" />
+      <circle
+         cx="582.16998"
+         cy="62.139999"
+         r="8.2600002"
+         style="fill:#73ccc1;stroke-width:0.71"
+         id="circle37" />
+      <circle
+         cx="398.20001"
+         cy="62.139999"
+         r="10.15"
+         style="fill:#49b1c0;stroke-width:0.71"
+         id="circle38" />
+      <circle
+         cx="183.56"
+         cy="62.139999"
+         r="8.2600002"
+         style="fill:#518ab9;stroke-width:0.71"
+         id="circle39" />
+      <circle
+         cx="183.56"
+         cy="156.58"
+         r="8.2600002"
+         style="fill:#b1edbe;stroke-width:0.71"
+         id="circle40" />
+      <circle
+         cx="244.88"
+         cy="156.58"
+         r="8.2600002"
+         style="fill:#aeebbe;stroke-width:0.71"
+         id="circle41" />
+      <circle
+         cx="152.89"
+         cy="156.58"
+         r="8.2600002"
+         style="fill:#adeabe;stroke-width:0.71"
+         id="circle42" />
+      <circle
+         cx="398.20001"
+         cy="156.58"
+         r="8.2600002"
+         style="fill:#9fe2bf;stroke-width:0.71"
+         id="circle43" />
+      <circle
+         cx="428.85999"
+         cy="156.58"
+         r="8.2600002"
+         style="fill:#9de1bf;stroke-width:0.71"
+         id="circle44" />
+      <circle
+         cx="306.20999"
+         cy="156.58"
+         r="8.2600002"
+         style="fill:#9adfbf;stroke-width:0.71"
+         id="circle45" />
+      <circle
+         cx="275.54001"
+         cy="156.58"
+         r="8.2600002"
+         style="fill:#93dcc0;stroke-width:0.71"
+         id="circle46" />
+      <circle
+         cx="551.51001"
+         cy="156.58"
+         r="5.6900001"
+         style="fill:#93dcc0;stroke-width:0.71"
+         id="circle47" />
+      <circle
+         cx="582.16998"
+         cy="156.58"
+         r="5.6900001"
+         style="fill:#91dbc0;stroke-width:0.71"
+         id="circle48" />
+      <circle
+         cx="367.53"
+         cy="156.58"
+         r="5.6900001"
+         style="fill:#87d5c0;stroke-width:0.71"
+         id="circle49" />
+      <circle
+         cx="643.5"
+         cy="156.58"
+         r="8.2600002"
+         style="fill:#81d2c1;stroke-width:0.71"
+         id="circle50" />
+      <circle
+         cx="459.51999"
+         cy="156.58"
+         r="8.2600002"
+         style="fill:#7fd1c1;stroke-width:0.71"
+         id="circle51" />
+      <circle
+         cx="674.15997"
+         cy="156.58"
+         r="5.6900001"
+         style="fill:#7ed1c1;stroke-width:0.71"
+         id="circle52" />
+      <circle
+         cx="490.17999"
+         cy="156.58"
+         r="8.2600002"
+         style="fill:#6bc8c1;stroke-width:0.71"
+         id="circle53" />
+      <circle
+         cx="551.51001"
+         cy="251.03"
+         r="5.6900001"
+         style="fill:#4c5baf;stroke-width:0.71"
+         id="circle54" />
+      <circle
+         cx="735.47998"
+         cy="251.03"
+         r="5.6900001"
+         style="fill:#4c5baf;stroke-width:0.71"
+         id="circle55" />
+      <circle
+         cx="520.84998"
+         cy="251.03"
+         r="5.6900001"
+         style="fill:#96ddc0;stroke-width:0.71"
+         id="circle56" />
+      <circle
+         cx="612.83002"
+         cy="251.03"
+         r="5.6900001"
+         style="fill:#87d5c0;stroke-width:0.71"
+         id="circle57" />
+      <circle
+         cx="704.82001"
+         cy="251.03"
+         r="5.6900001"
+         style="fill:#7dd0c1;stroke-width:0.71"
+         id="circle58" />
+      <rect
+         x="134.5"
+         y="5.48"
+         width="619.39001"
+         height="302.20999"
+         style="stroke-width:2.13"
+         id="rect58" />
+    </g>
+    <g
+       clip-path="url(#cpMC4wMHw4NjQuMDB8MC4wMHw1NzYuMDA=)"
+       id="g119"
+       inkscape:label="Text">
+      <text
+         x="71.260002"
+         y="247.75"
+         text-anchor="middle"
+         style="font-size:18px;font-family:Arial"
+         textLength="85.029999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text58">Faeder vs.</text>
+      <text
+         x="71.260002"
+         y="267.19"
+         text-anchor="middle"
+         style="font-size:18px;font-family:Arial"
+         textLength="69.029999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text59"> Satellite</text>
+      <text
+         x="71.260002"
+         y="153.31"
+         text-anchor="middle"
+         style="font-size:18px;font-family:Arial"
+         textLength="92.029999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text60">Satellite vs.</text>
+      <text
+         x="71.260002"
+         y="172.75"
+         text-anchor="middle"
+         style="font-size:18px;font-family:Arial"
+         textLength="105.08"
+         lengthAdjust="spacingAndGlyphs"
+         id="text61"> Independent</text>
+      <text
+         x="71.260002"
+         y="58.869999"
+         text-anchor="middle"
+         style="font-size:18px;font-family:Arial"
+         textLength="85.029999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text62">Faeder vs.</text>
+      <text
+         x="71.260002"
+         y="78.309998"
+         text-anchor="middle"
+         style="font-size:18px;font-family:Arial"
+         textLength="105.08"
+         lengthAdjust="spacingAndGlyphs"
+         id="text63"> Independent</text>
+      <polyline
+         points="125.99,251.03 134.50,251.03 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline63" />
+      <polyline
+         points="125.99,156.58 134.50,156.58 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline64" />
+      <polyline
+         points="125.99,62.14 134.50,62.14 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline65" />
+      <polyline
+         points="152.89,311.94 152.89,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline66" />
+      <polyline
+         points="183.56,311.94 183.56,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline67" />
+      <polyline
+         points="214.22,311.94 214.22,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline68" />
+      <polyline
+         points="244.88,311.94 244.88,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline69" />
+      <polyline
+         points="275.54,311.94 275.54,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline70" />
+      <polyline
+         points="306.21,311.94 306.21,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline71" />
+      <polyline
+         points="336.87,311.94 336.87,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline72" />
+      <polyline
+         points="367.53,311.94 367.53,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline73" />
+      <polyline
+         points="398.20,311.94 398.20,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline74" />
+      <polyline
+         points="428.86,311.94 428.86,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline75" />
+      <polyline
+         points="459.52,311.94 459.52,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline76" />
+      <polyline
+         points="490.18,311.94 490.18,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline77" />
+      <polyline
+         points="520.85,311.94 520.85,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline78" />
+      <polyline
+         points="551.51,311.94 551.51,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline79" />
+      <polyline
+         points="582.17,311.94 582.17,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline80" />
+      <polyline
+         points="612.83,311.94 612.83,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline81" />
+      <polyline
+         points="643.50,311.94 643.50,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline82" />
+      <polyline
+         points="674.16,311.94 674.16,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline83" />
+      <polyline
+         points="704.82,311.94 704.82,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline84" />
+      <polyline
+         points="735.48,311.94 735.48,307.69 "
+         style="stroke-width:1.07;stroke-linecap:butt"
+         id="polyline85" />
+      <text
+         transform="rotate(-45,469.46102,-33.217121)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="187.7"
+         lengthAdjust="spacingAndGlyphs"
+         id="text85">Response to gonadotropin</text>
+      <text
+         transform="rotate(-45,484.79602,-70.239086)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="234.75999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text86">Glucocorticoid metabolic process</text>
+      <text
+         transform="rotate(-45,500.12602,-107.24898)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="201.00999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text87">Thyroid hormone generation</text>
+      <text
+         transform="rotate(-45,515.45602,-144.25887)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="267.69"
+         lengthAdjust="spacingAndGlyphs"
+         id="text88">Steroid hormone biosynthetic process</text>
+      <text
+         transform="rotate(-45,530.78602,-181.26877)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="184.08"
+         lengthAdjust="spacingAndGlyphs"
+         id="text89">Steroid metabolic process</text>
+      <text
+         transform="rotate(-45,546.12102,-218.29073)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="199.2"
+         lengthAdjust="spacingAndGlyphs"
+         id="text90">Hormone metabolic process</text>
+      <text
+         transform="rotate(-45,561.45102,-255.30063)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="214.32001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text91">Cholesterol metabolic process</text>
+      <text
+         transform="rotate(-45,576.78102,-292.31052)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="288.14001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text92">Response to follicle-stimulating hormone</text>
+      <text
+         transform="rotate(-45,592.11602,-329.33249)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="179.67999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text93">Male gonad development</text>
+      <text
+         transform="rotate(-45,607.44602,-366.34238)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="200.10001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text94">Steroid biosynthetic process</text>
+      <text
+         transform="rotate(-45,622.77602,-403.35227)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="207.24001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text95">Regulation of hormone levels</text>
+      <text
+         transform="rotate(-45,638.10602,-440.36217)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="257.89001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text96">Small molecule biosynthetic process</text>
+      <text
+         transform="rotate(-45,653.44102,-477.38413)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="180.55"
+         lengthAdjust="spacingAndGlyphs"
+         id="text97">Nucleosome organization</text>
+      <text
+         transform="rotate(-45,668.77102,-514.39403)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="194.75"
+         lengthAdjust="spacingAndGlyphs"
+         id="text98">Histidine metabolic process</text>
+      <text
+         transform="rotate(-45,684.10102,-551.40392)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="175.82001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text99">Leydig cell differentiation</text>
+      <text
+         transform="rotate(-45,699.43102,-588.41381)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="157.41"
+         lengthAdjust="spacingAndGlyphs"
+         id="text100">Chromatin remodeling</text>
+      <text
+         transform="rotate(-45,714.76602,-625.43578)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="329.04001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text101">Organic hydroxy compound metabolic process</text>
+      <text
+         transform="rotate(-45,730.09602,-662.44567)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="295.26999"
+         lengthAdjust="spacingAndGlyphs"
+         id="text102">Regulation of hormone metabolic process</text>
+      <text
+         transform="rotate(-45,745.42602,-699.45557)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="244.56"
+         lengthAdjust="spacingAndGlyphs"
+         id="text103">Protein-DNA complex organization</text>
+      <text
+         transform="rotate(-45,760.75602,-736.46546)"
+         text-anchor="end"
+         style="font-size:16px;font-family:Arial"
+         textLength="156.53"
+         lengthAdjust="spacingAndGlyphs"
+         id="text104">Response to folic acid</text>
+      <rect
+         x="764.84003"
+         y="20.440001"
+         width="60.959999"
+         height="117.66"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect104" />
+      <text
+         x="795.32001"
+         y="39.060001"
+         text-anchor="middle"
+         style="font-size:16px;font-family:Arial"
+         textLength="32.880001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text105">FDR</text>
+      <image
+         width="17.280001"
+         height="86.400002"
+         x="770.32001"
+         y="46.220001"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAEsCAYAAAACUNnVAAAAkUlEQVQ4ja2Q0RHAIAhDEwbpGh24g9IPT69VQLT98YSEFw6cx6VCAgIBhCQEBISC+ot71iyrLwEYJvgs2Xq+T5w0C2BRrJ27NRLmGD8ju+Z1/L6ge6h4bFBXBZ2oNMyjqu105UF7fi6RNIMaqs4sYvOcYu2HpYy4LD+dQf8sv1Ne67q+7nRu6R7HF/pIjTJy4Tfl0hS1E91SUQAAAABJRU5ErkJggg=="
+         id="image105" />
+      <rect
+         x="770.32001"
+         y="46.220001"
+         width="17.280001"
+         height="86.400002"
+         style="stroke-width:0.75"
+         id="rect105" />
+      <polyline
+         points="784.14,123.87 787.60,123.87 "
+         style="stroke-width:0.75;stroke-linecap:butt"
+         id="polyline105" />
+      <polyline
+         points="784.14,89.42 787.60,89.42 "
+         style="stroke-width:0.75;stroke-linecap:butt"
+         id="polyline106" />
+      <polyline
+         points="784.14,50.67 787.60,50.67 "
+         style="stroke-width:0.75;stroke-linecap:butt"
+         id="polyline107" />
+      <polyline
+         points="773.78,123.87 770.32,123.87 "
+         style="stroke-width:0.75;stroke-linecap:butt"
+         id="polyline108" />
+      <polyline
+         points="773.78,89.42 770.32,89.42 "
+         style="stroke-width:0.75;stroke-linecap:butt"
+         id="polyline109" />
+      <polyline
+         points="773.78,50.67 770.32,50.67 "
+         style="stroke-width:0.75;stroke-linecap:butt"
+         id="polyline110" />
+      <text
+         x="793.08002"
+         y="128.88"
+         style="font-size:14px;font-family:Arial"
+         textLength="27.24"
+         lengthAdjust="spacingAndGlyphs"
+         id="text110">0.01</text>
+      <text
+         x="793.08002"
+         y="94.43"
+         style="font-size:14px;font-family:Arial"
+         textLength="27.24"
+         lengthAdjust="spacingAndGlyphs"
+         id="text111">0.05</text>
+      <text
+         x="793.08002"
+         y="55.68"
+         style="font-size:14px;font-family:Arial"
+         textLength="19.450001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text112">0.1</text>
+      <rect
+         x="764.84003"
+         y="149.06"
+         width="93.68"
+         height="143.67"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect112" />
+      <text
+         x="811.67999"
+         y="167.67999"
+         text-anchor="middle"
+         style="font-size:16px;font-family:Arial"
+         textLength="82.720001"
+         lengthAdjust="spacingAndGlyphs"
+         id="text113">Gene count</text>
+      <rect
+         x="782.72998"
+         y="174.84"
+         width="36.849998"
+         height="17.280001"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect113" />
+      <circle
+         cx="801.15997"
+         cy="183.48"
+         r="5.6900001"
+         style="stroke-width:0.71"
+         id="circle113" />
+      <rect
+         x="782.72998"
+         y="192.12"
+         width="36.849998"
+         height="26.02"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect114" />
+      <circle
+         cx="801.15997"
+         cy="205.13"
+         r="10.15"
+         style="stroke-width:0.71"
+         id="circle114" />
+      <rect
+         x="782.72998"
+         y="218.14"
+         width="36.849998"
+         height="32.259998"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect115" />
+      <circle
+         cx="801.15997"
+         cy="234.27"
+         r="12.5"
+         style="stroke-width:0.71"
+         id="circle115" />
+      <rect
+         x="782.72998"
+         y="250.39999"
+         width="36.849998"
+         height="36.849998"
+         style="fill:#ffffff;stroke:none;stroke-width:1.07"
+         id="rect116" />
+      <circle
+         cx="801.15997"
+         cy="268.82999"
+         r="14.23"
+         style="stroke-width:0.71"
+         id="circle116" />
+      <text
+         x="825.06"
+         y="188.49001"
+         style="font-size:14px;font-family:Arial"
+         textLength="7.7800002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text116">1</text>
+      <text
+         x="825.06"
+         y="210.14"
+         style="font-size:14px;font-family:Arial"
+         textLength="7.7800002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text117">4</text>
+      <text
+         x="825.06"
+         y="239.28"
+         style="font-size:14px;font-family:Arial"
+         textLength="7.7800002"
+         lengthAdjust="spacingAndGlyphs"
+         id="text118">8</text>
+      <text
+         x="825.06"
+         y="273.84"
+         style="font-size:14px;font-family:Arial"
+         textLength="15.57"
+         lengthAdjust="spacingAndGlyphs"
+         id="text119">12</text>
+    </g>
+  </g>
+</svg>

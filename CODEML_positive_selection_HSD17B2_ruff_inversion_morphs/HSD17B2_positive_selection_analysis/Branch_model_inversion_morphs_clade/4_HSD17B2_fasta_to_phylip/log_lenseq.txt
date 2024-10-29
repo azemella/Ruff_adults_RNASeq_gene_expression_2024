@@ -1,0 +1,9 @@
+Taxa: Charadrius_vociferus	Length of sequence: 1170
+Taxa: Rissa_tridactyla	Length of sequence: 1170
+Taxa: Calidris_pugnax_Independent	Length of sequence: 1170
+Taxa: Calidris_pugnax_Satellite	Length of sequence: 1170
+Taxa: Calidris_pugnax_Faeder	Length of sequence: 1170
+Taxa: Limosa_lapponica	Length of sequence: 1170
+Taxa: Alca_torda	Length of sequence: 1170
+Taxa: Chroicocephalus_ridibundus	Length of sequence: 1170
+Taxa: Uria_aalge	Length of sequence: 1170
